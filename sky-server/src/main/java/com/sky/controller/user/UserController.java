@@ -36,7 +36,7 @@ public class UserController  {
     @PostMapping("/login")
     @ApiOperation("微信登录")
     /**
-     * 微信登录
+     * 微信登陆
      */
     public Result<UserLoginVO> login(@RequestBody UserLoginDTO userLoginDTO){
 

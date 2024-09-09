@@ -108,7 +108,7 @@ public class DishController {
         dishService.updateWithFlavor(dishDTO);
 
         //将所有的菜品缓存数据清理掉，所有以dish_开头的key
-        cleanCache("dish_*");
+        cleanCache("*dish_*");
 
         return Result.success();
     }

@@ -62,3 +62,8 @@ sky:
     weChatPayCertFilePath: ${sky.wechat.weChatPayCertFilePath}
     notifyUrl: ${sky.wechat.notifyUrl}
     refundNotifyUrl: ${sky.wechat.refundNotifyUrl}
+
+    shop:
+      address: 河南省郑州市高新区莲花街100号
+    baidu:
+      ak: aA3vYe1HXNtlZuuResDmh7nyyT5Qo7uS
